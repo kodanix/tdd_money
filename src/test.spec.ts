@@ -12,10 +12,6 @@ test('Should return with: Hello, Alice, Bob and Jerry', () => {
   expect(hello(["Alice", "Bob", "Jerry"])).toBe("Hello, Alice, Bob and Jerry.");
 });
 
-test('Should return with: Hello, Alice, Bob and Jerry', () => {
-  expect(hello(["Alice", "Bob"])).toBe("Hello, Alice and Bob.");
-});
-
 test('Handle one shout', () => {
   expect(hello(['BARRY'])).toBe("HELLO BARRY!");
 });
